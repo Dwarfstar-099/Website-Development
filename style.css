@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    background:
+    linear-gradient(rgb(200, 199, 199), rgb(149, 196, 238), rgb(206, 201, 201));
+    min-height: 2000px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+figcaption{
+    font-size: 1rem;
+    margin-top: 0.7rem;
+}
+#title-main{
+    letter-spacing: 2px;
+}
+img{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px gray inset;
+}
+.idol{
+    margin-top: 2.3rem;
+}
+h2{
+    margin-top: 1.9rem;
+    margin-bottom: 1.3rem;
+    margin-left: 2.2rem;
+    font-size: 1.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    margin-left: 1rem;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2rem;
+    font-weight: 600;
+    margin-right: 2.3rem;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+@media only screen and (max-width: 600px){
+    header{
+        font-size: 0.8rem;
+    }
+    h2{
+        font-size: 0.9rem;
+    }
+    img{
+        width: 80% ;
+    }
+    figcaption{
+        font-size: 0.5rem;
+    }
+    div{
+        font-size: 0.676rem;
+        line-height: 1.8;
+    }
+}
+
